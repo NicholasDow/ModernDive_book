@@ -506,10 +506,10 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.26",
+      "Version": "1.25",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a1f86bbc39ae43c6ae183223a52527a1"
+      "Hash": "33a3a009f5e7c3606d6851692bf703d9"
     },
     "labeling": {
       "Package": "labeling",
