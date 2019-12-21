@@ -679,6 +679,13 @@
       "Repository": "CRAN",
       "Hash": "be6319388852d6cb3571ea89d9d1634f"
     },
+    "bookdown": {
+      "Package": "bookdown",
+      "Version": "0.13",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2ac6b83fbe5c15bbdd3113bb9402c277"
+    },
     "openssl": {
       "Package": "openssl",
       "Version": "1.4.1",
