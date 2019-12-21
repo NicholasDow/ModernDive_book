@@ -21,12 +21,12 @@ env:
 before_install:
   - export COMMIT_MSG=$(echo "$TRAVIS_COMMIT_MESSAGE" | head -n1)
   - export DEPLOY_MSG="${TRAVIS_COMMIT:0:7} ${COMMIT_MSG:0:50}"
+  - Rscript -e "renv::restore()"
 
 install:
   - Rscript -e 'old.packages(repos = Sys.getenv("RENV_CONFIG_REPOS_OVERRIDE"), lib.loc = .libPaths()[1])'
 
 script:
-  - Rscript -e "renv::restore()"
   - Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
 before_cache:
