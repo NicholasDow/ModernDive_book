@@ -23,13 +23,6 @@
       "Repository": "CRAN",
       "Hash": "7bc8be0e425da29fe0e10f792bdbb74b"
     },
-    "DT": {
-      "Package": "DT",
-      "Version": "0.10",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "db11f72fe9e9f513de8c053d3771b5a2"
-    },
     "ISLR": {
       "Package": "ISLR",
       "Version": "1.2",
