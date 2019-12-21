@@ -1,5 +1,6 @@
-Package: placeholder
-Title: Does not matter.
+Type: Book
+Package: ModernDive
+Title: ModernDive
 Version: 0.0.1
 Imports: 
   bookdown,
