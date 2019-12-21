@@ -1,6 +1,7 @@
 language: r
 cache:
   directories:
+  - packages
   - _bookdown_files
   - $HOME/.npm
   - $HOME/.local/share/renv
