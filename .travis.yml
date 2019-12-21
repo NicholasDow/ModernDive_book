@@ -9,6 +9,9 @@ pandoc_version: 1.19.2.1
 
 r_packages:
   - devtools
+  - bookdown
+  - knitr
+  - markdown
 
 env:
   global:
@@ -23,8 +26,8 @@ install:
   - Rscript -e 'old.packages(repos = Sys.getenv("RENV_CONFIG_REPOS_OVERRIDE"), lib.loc = .libPaths()[1])'
 
 script:
-  - Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
   - Rscript -e "renv::restore()"
+  - Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
 before_cache:
 - nvm install stable
